@@ -1,5 +1,5 @@
 html {
-  background-image: url('../assets/calendar.png');
+  background-image: url('assets/calendar.png');
   background-attachment: fixed;
   /* The background will remain stationary when the page's contents are scrolled through. */
   /* Full height */
@@ -14,41 +14,41 @@ body {
   font-family: arial, helvetica, sans-serif;
   font-size: 16px;
   color: black;
-  margin: 20px;
+  margin: 0;
   padding: 0;
-  align: center;
+
+}
+
+div.textbox {
+  background-color: rgba(221, 209, 188, .6);
 }
 
 img {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 2px;
+  /* This centers the image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 500px;
-  border: 3px;
-  border-color: olive;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
   text-align: center;
-  padding: 4px;
   letter-spacing: 0.4em;
 }
 
 p {
-  background-color: #ed6565;
-  padding: 10px;
-  text-align: center;
+  text-indent: 35%;
+}
+
+ul {
+  text-indent: 37%;
+  padding-bottom: 15px;
+  list-style: none;
 }
 
 p.one:first-letter {
   font-size: 40px;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
-}
-
-blockquote {
-  background-color: #ed6565;
-  padding: 10px;
-  text-align: center;
 }
