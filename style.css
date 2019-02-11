@@ -12,10 +12,11 @@ html {
 
 body {
   font-family: arial, helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   margin: 20px;
   padding: 0;
+  align: center;
 }
 
 img {
@@ -35,6 +36,12 @@ h1 {
   letter-spacing: 0.4em;
 }
 
+p {
+  background-color: #ed6565;
+  padding: 10px;
+  text-align: center;
+}
+
 p.one:first-letter {
   font-size: 40px;
   font-family: 'Roboto Slab', serif;
@@ -42,6 +49,7 @@ p.one:first-letter {
 }
 
 blockquote {
-  background-color: white;
+  background-color: #ed6565;
   padding: 10px;
+  text-align: center;
 }
