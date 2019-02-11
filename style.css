@@ -25,14 +25,13 @@ img {
   padding: 2px;
   width: 500px;
   border: 3px;
+  border-color: olive;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
-  color: white;
-  background-color: #900;
-  padding: 4px;
   text-align: center;
+  padding: 4px;
   letter-spacing: 0.4em;
 }
 
