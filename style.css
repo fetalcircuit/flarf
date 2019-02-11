@@ -1,16 +1,47 @@
+html {
+  background-image: url('../assets/calendar.png');
+  background-attachment: fixed;
+  /* The background will remain stationary when the page's contents are scrolled through. */
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  margin: 20px;
+  padding: 0;
+}
+
 img {
   display: inline-block;
   margin-top: 10px;
   padding: 2px;
   width: 500px;
+  border: 3px;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
+  color: white;
+  background-color: #900;
+  padding: 4px;
+  text-align: center;
+  letter-spacing: 0.4em;
 }
 
 p.one:first-letter {
   font-size: 40px;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+}
+
+blockquote {
+  background-color: white;
+  padding: 10px;
 }
